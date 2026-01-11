@@ -9,9 +9,9 @@ function App() {
     <>      
       <div>
         <UserProfile 
-          name="Nelson Sylvanus"
-          age={35}
-          bio="Frontend engineer learning React at ALX."
+          name="Alice"
+          age={25}
+          bio="Loves hiking and photography"
         />
 
       </div>
