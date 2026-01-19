@@ -1,12 +1,10 @@
-
 import ProfilePage from "./ProfilePage";
 import UserContext from "./UserContext";
 
 function App() {
   const userData = {
-    name: "John Doe",
-    age: 30,
-    bio: "Frontend developer",
+    name: "Jane Doe",
+    email: "jane.doe@example.com",
   };
 
   return (
@@ -17,3 +15,4 @@ function App() {
 }
 
 export default App;
+
