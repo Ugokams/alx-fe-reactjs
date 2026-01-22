@@ -2,14 +2,16 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import AddRecipeForm from "./components/AddRecipeForm";
 import RecipeList from "./components/RecipeList";
 import RecipeDetails from "./components/RecipeDetails";
+import SearchBar from "./components/SearchBar";
 
 function App() {
   return (
     <Router>
-      <div>
-        <h1>Recipe App</h1>
+      <div style={{ padding: "20px", maxWidth: "600px", margin: "auto" }}>
+        <h1 style={{ textAlign: "center" }}>Recipe App</h1>
 
         {/* Always visible components */}
+        <SearchBar />
         <AddRecipeForm />
         <RecipeList />
 
